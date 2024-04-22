@@ -4,7 +4,7 @@ import {
   HomeIcon,
   DocumentDuplicateIcon,
 } from '@heroicons/react/24/outline';
-import {usePathname} from "next/navigation"
+import {useParams, usePathname, useSearchParams} from "next/navigation"
 
 import Link from "next/link"
 import clsx from 'clsx';
@@ -22,7 +22,7 @@ const links = [
 
 export default function NavLinks() {
 const pathname = usePathname();
-
+console.log(pathname);
   return (
     <>
       {links.map((link) => {
