@@ -177,6 +177,8 @@ export async function fetchInvoiceById(id: string) {
 }
 
 export async function fetchCustomers() {
+  // await new Promise((resolve) => setTimeout(resolve, 5000));
+
   noStore();
   try {
     const data = await sql<CustomerField>`
