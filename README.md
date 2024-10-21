@@ -2,7 +2,11 @@
 
 ### I built this project using the knowledge gained from the ["Learn Next.js"](https://nextjs.org/learn) course available on the Next.js official website. 
 
-It has: 
+## Authentication information:
+Email: user@nextmail.com
+Password: 123456
+
+## It has: 
 - A public home page.
 - A login page.
 - Dashboard pages that are protected by authentication.
